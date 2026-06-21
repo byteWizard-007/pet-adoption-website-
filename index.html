@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetCare Plus - Find Your Perfect Furry Friend</title>
+    <meta name="description" content="Premium Pet Adoption Platform. Find, adopt, and care for your perfect furry friend today.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+    <!-- SECTION 1: STICKY NAVIGATION BAR -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <i class="fas fa-paw"></i> PetCare <span>Plus</span>
+            </a>
+            <nav class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#pets">Pets</a></li>
+                    <li><a href="#process">Adoption</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#stories">Success Stories</a></li>
+                    <li><a href="#donate">Donate</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- SECTION 2: FULL SCREEN HERO -->
+    <section class="hero" id="home">
+        <div class="hero-blobs">
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+        </div>
+        <div class="container hero-container">
+            <div class="hero-content scroll-reveal">
+                <h1>Find Your Perfect <span>Furry Friend</span></h1>
+                <p>Every pet deserves a loving home. Adopt, care, and make a difference today. Join our community of animal lovers and change a life forever.</p>
+                <div class="hero-buttons">
+                    <a href="#process" class="btn btn-primary">Adopt Now</a>
+                    <a href="#pets" class="btn btn-secondary">Browse Pets</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="counter" data-target="500">0</span>+
+                        <p>Pets Adopted</p>
+                    </div>
+                    <div class="stat-item">
+                        <span class="counter" data-target="2000">0</span>+
+                        <p>Happy Families</p>
+                    </div>
+                    <div class="stat-item">
+                        <span class="counter" data-target="150">0</span>+
+                        <p>Rescue Volunteers</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image-wrapper scroll-reveal">
+                <img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Happy Dog" class="hero-img floating">
+                <div class="glass-badge badge-1"><i class="fas fa-check-circle"></i> 100% Verified</div>
+                <div class="glass-badge badge-2"><i class="fas fa-heart"></i> Loving Homes</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 3: FEATURED PETS -->
+    <section class="featured-pets section-padding" id="pets">
+        <div class="container">
+            <div class="section-title scroll-reveal">
+                <h2>Featured <span>Pets</span></h2>
+                <p>Meet our adorable companions waiting for their forever homes.</p>
+            </div>
+            <div class="pets-grid">
+                <!-- Pet 1 -->
+                <div class="pet-card scroll-reveal">
+                    <div class="pet-img-container">
+                        <img src="https://images.unsplash.com/photo-1552053831-71594a27632d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Golden Retriever">
+                        <div class="pet-favorite"><i class="far fa-heart"></i></div>
+                    </div>
+                    <div class="pet-info">
+                        <h3>Buddy</h3>
+                        <p class="pet-breed">Golden Retriever</p>
+                        <div class="pet-meta">
+                            <span><i class="fas fa-clock"></i> 2 Years</span>
+                            <span><i class="fas fa-venus-mars"></i> Male</span>
+                        </div>
+                        <p class="pet-desc">Friendly, playful, and loves outdoor activities. Perfect for families.</p>
+                        <div class="pet-status"><i class="fas fa-syringe"></i> Vaccinated</div>
+                        <div class="pet-actions">
+                            <button class="btn btn-outline">View Details</button>
+                            <button class="btn btn-primary">Adopt Me</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pet 2 -->
+                <div class="pet-card scroll-reveal" style="transition-delay: 0.1s;">
+                    <div class="pet-img-container">
+                        <img src="https://images.unsplash.com/photo-1593134257782-e89567b7718a?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Labrador">
+                        <div class="pet-favorite"><i class="far fa-heart"></i></div>
+                    </div>
+                    <div class="pet-info">
+                        <h3>Max</h3>
+                        <p class="pet-breed">Labrador</p>
+                        <div class="pet-meta">
+                            <span><i class="fas fa-clock"></i> 1 Year</span>
+                            <span><i class="fas fa-venus-mars"></i> Male</span>
+                        </div>
+                        <p class="pet-desc">Energetic and extremely loyal. Great with kids and other pets.</p>
+                        <div class="pet-status"><i class="fas fa-syringe"></i> Vaccinated</div>
+                        <div class="pet-actions">
+                            <button class="btn btn-outline">View Details</button>
+                            <button class="btn btn-primary">Adopt Me</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pet 3 -->
+                <div class="pet-card scroll-reveal" style="transition-delay: 0.2s;">
+                    <div class="pet-img-container">
+                        <img src="https://images.unsplash.com/photo-1605568427561-40dd23c2acea?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Husky">
+                        <div class="pet-favorite"><i class="far fa-heart"></i></div>
+                    </div>
+                    <div class="pet-info">
+                        <h3>Luna</h3>
+                        <p class="pet-breed">Husky</p>
+                        <div class="pet-meta">
+                            <span><i class="fas fa-clock"></i> 3 Years</span>
+                            <span><i class="fas fa-venus-mars"></i> Female</span>
+                        </div>
+                        <p class="pet-desc">Striking blue eyes and a playful spirit. Needs an active owner.</p>
+                        <div class="pet-status"><i class="fas fa-syringe"></i> Vaccinated</div>
+                        <div class="pet-actions">
+                            <button class="btn btn-outline">View Details</button>
+                            <button class="btn btn-primary">Adopt Me</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pet 4 -->
+                <div class="pet-card scroll-reveal" style="transition-delay: 0.3s;">
+                    <div class="pet-img-container">
+                        <img src="https://images.unsplash.com/photo-1537151608804-ea2f1ea29221?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Beagle">
+                        <div class="pet-favorite"><i class="far fa-heart"></i></div>
+                    </div>
+                    <div class="pet-info">
+                        <h3>Charlie</h3>
+                        <p class="pet-breed">Beagle</p>
+                        <div class="pet-meta">
+                            <span><i class="fas fa-clock"></i> 6 Months</span>
+                            <span><i class="fas fa-venus-mars"></i> Male</span>
+                        </div>
+                        <p class="pet-desc">Curious little explorer with an excellent sense of smell.</p>
+                        <div class="pet-status"><i class="fas fa-syringe"></i> Vaccinated</div>
+                        <div class="pet-actions">
+                            <button class="btn btn-outline">View Details</button>
+                            <button class="btn btn-primary">Adopt Me</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pet 5 -->
+                <div class="pet-card scroll-reveal">
+                    <div class="pet-img-container">
+                        <img src="https://images.unsplash.com/photo-1513245543132-31f507417b26?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Persian Cat">
+                        <div class="pet-favorite"><i class="far fa-heart"></i></div>
+                    </div>
+                    <div class="pet-info">
+                        <h3>Chloe</h3>
+                        <p class="pet-breed">Persian Cat</p>
+                        <div class="pet-meta">
+                            <span><i class="fas fa-clock"></i> 2 Years</span>
+                            <span><i class="fas fa-venus-mars"></i> Female</span>
+                        </div>
+                        <p class="pet-desc">Calm, affectionate, and enjoys lounging on soft pillows.</p>
+                        <div class="pet-status"><i class="fas fa-syringe"></i> Vaccinated</div>
+                        <div class="pet-actions">
+                            <button class="btn btn-outline">View Details</button>
+                            <button class="btn btn-primary">Adopt Me</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pet 6 -->
+                <div class="pet-card scroll-reveal" style="transition-delay: 0.1s;">
+                    <div class="pet-img-container">
+                        <img src="https://images.unsplash.com/photo-1574158622682-e40e69881006?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Maine Coon">
+                        <div class="pet-favorite"><i class="far fa-heart"></i></div>
+                    </div>
+                    <div class="pet-info">
+                        <h3>Leo</h3>
+                        <p class="pet-breed">Maine Coon</p>
+                        <div class="pet-meta">
+                            <span><i class="fas fa-clock"></i> 4 Years</span>
+                            <span><i class="fas fa-venus-mars"></i> Male</span>
+                        </div>
+                        <p class="pet-desc">A gentle giant with a luxurious coat and a friendly demeanor.</p>
+                        <div class="pet-status"><i class="fas fa-syringe"></i> Vaccinated</div>
+                        <div class="pet-actions">
+                            <button class="btn btn-outline">View Details</button>
+                            <button class="btn btn-primary">Adopt Me</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pet 7 -->
+                <div class="pet-card scroll-reveal" style="transition-delay: 0.2s;">
+                    <div class="pet-img-container">
+                        <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Pug">
+                        <div class="pet-favorite"><i class="far fa-heart"></i></div>
+                    </div>
+                    <div class="pet-info">
+                        <h3>Bella</h3>
+                        <p class="pet-breed">Pug</p>
+                        <div class="pet-meta">
+                            <span><i class="fas fa-clock"></i> 1.5 Years</span>
+                            <span><i class="fas fa-venus-mars"></i> Female</span>
+                        </div>
+                        <p class="pet-desc">A goofy and loving companion that will keep you smiling.</p>
+                        <div class="pet-status"><i class="fas fa-syringe"></i> Vaccinated</div>
+                        <div class="pet-actions">
+                            <button class="btn btn-outline">View Details</button>
+                            <button class="btn btn-primary">Adopt Me</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pet 8 -->
+                <div class="pet-card scroll-reveal" style="transition-delay: 0.3s;">
+                    <div class="pet-img-container">
+                        <img src="https://images.unsplash.com/photo-1589924691995-400dc9ecc119?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="German Shepherd">
+                        <div class="pet-favorite"><i class="far fa-heart"></i></div>
+                    </div>
+                    <div class="pet-info">
+                        <h3>Rocky</h3>
+                        <p class="pet-breed">German Shepherd</p>
+                        <div class="pet-meta">
+                            <span><i class="fas fa-clock"></i> 2.5 Years</span>
+                            <span><i class="fas fa-venus-mars"></i> Male</span>
+                        </div>
+                        <p class="pet-desc">Smart, protective, and highly trainable. A true loyal friend.</p>
+                        <div class="pet-status"><i class="fas fa-syringe"></i> Vaccinated</div>
+                        <div class="pet-actions">
+                            <button class="btn btn-outline">View Details</button>
+                            <button class="btn btn-primary">Adopt Me</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 4: WHY ADOPT -->
+    <section class="why-adopt section-padding bg-light">
+        <div class="container">
+            <div class="section-title scroll-reveal">
+                <h2>Why <span>Adopt?</span></h2>
+                <p>Adopting a pet changes two lives forever. Here are just a few reasons to open your home.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card scroll-reveal">
+                    <div class="icon-wrapper"><i class="fas fa-heartbeat"></i></div>
+                    <h3>Save Animal Lives</h3>
+                    <p>By adopting, you're directly giving a second chance to a pet in need of a loving home.</p>
+                </div>
+                <div class="feature-card scroll-reveal" style="transition-delay: 0.1s;">
+                    <div class="icon-wrapper"><i class="fas fa-home"></i></div>
+                    <h3>Reduce Homeless Pets</h3>
+                    <p>You help free up space at shelters, allowing them to save more abandoned animals.</p>
+                </div>
+                <div class="feature-card scroll-reveal" style="transition-delay: 0.2s;">
+                    <div class="icon-wrapper"><i class="fas fa-smile"></i></div>
+                    <h3>Improve Mental Health</h3>
+                    <p>Pets offer unconditional love, reducing stress, anxiety, and feelings of loneliness.</p>
+                </div>
+                <div class="feature-card scroll-reveal">
+                    <div class="icon-wrapper"><i class="fas fa-handshake"></i></div>
+                    <h3>Gain Loyal Companionship</h3>
+                    <p>Adopted pets form incredibly strong bonds with their new families, offering lifelong loyalty.</p>
+                </div>
+                <div class="feature-card scroll-reveal" style="transition-delay: 0.1s;">
+                    <div class="icon-wrapper"><i class="fas fa-paw"></i></div>
+                    <h3>Support Animal Welfare</h3>
+                    <p>Your adoption fee goes towards the shelter's mission to rescue and care for other animals.</p>
+                </div>
+                <div class="feature-card scroll-reveal" style="transition-delay: 0.2s;">
+                    <div class="icon-wrapper"><i class="fas fa-users"></i></div>
+                    <h3>Build a Loving Family</h3>
+                    <p>Pets bring joy, laughter, and a sense of completeness to families of all sizes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 5: ADOPTION PROCESS -->
+    <section class="process section-padding" id="process">
+        <div class="container">
+            <div class="section-title scroll-reveal">
+                <h2>Adoption <span>Process</span></h2>
+                <p>Bringing your new best friend home is easier than you think.</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-line"></div>
+                <div class="timeline-item scroll-reveal">
+                    <div class="timeline-icon"><i class="fas fa-search"></i></div>
+                    <div class="timeline-content glass-card">
+                        <h3>Step 1: Browse Available Pets</h3>
+                        <p>Look through our gallery of adorable pets and find the one that steals your heart.</p>
+                    </div>
+                </div>
+                <div class="timeline-item scroll-reveal" style="transition-delay: 0.1s;">
+                    <div class="timeline-icon"><i class="fas fa-file-alt"></i></div>
+                    <div class="timeline-content glass-card">
+                        <h3>Step 2: Submit Application</h3>
+                        <p>Fill out our simple adoption form to tell us a bit about your lifestyle and home.</p>
+                    </div>
+                </div>
+                <div class="timeline-item scroll-reveal" style="transition-delay: 0.2s;">
+                    <div class="timeline-icon"><i class="fas fa-calendar-check"></i></div>
+                    <div class="timeline-content glass-card">
+                        <h3>Step 3: Schedule Meeting</h3>
+                        <p>Meet the pet in person or virtually to ensure a perfect match for both of you.</p>
+                    </div>
+                </div>
+                <div class="timeline-item scroll-reveal" style="transition-delay: 0.3s;">
+                    <div class="timeline-icon"><i class="fas fa-house-user"></i></div>
+                    <div class="timeline-content glass-card">
+                        <h3>Step 4: Home Verification</h3>
+                        <p>A quick verification to ensure your home is a safe and suitable environment.</p>
+                    </div>
+                </div>
+                <div class="timeline-item scroll-reveal" style="transition-delay: 0.4s;">
+                    <div class="timeline-icon"><i class="fas fa-stamp"></i></div>
+                    <div class="timeline-content glass-card">
+                        <h3>Step 5: Approval Process</h3>
+                        <p>Once everything checks out, we'll finalize the adoption paperwork and details.</p>
+                    </div>
+                </div>
+                <div class="timeline-item scroll-reveal" style="transition-delay: 0.5s;">
+                    <div class="timeline-icon"><i class="fas fa-car-side"></i></div>
+                    <div class="timeline-content glass-card">
+                        <h3>Step 6: Take Your Pet Home</h3>
+                        <p>Welcome your new family member home and begin your beautiful journey together!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 6: PET CARE SERVICES -->
+    <section class="services section-padding bg-dark text-white" id="services">
+        <div class="container">
+            <div class="section-title scroll-reveal">
+                <h2>Pet Care <span>Services</span></h2>
+                <p>Comprehensive care for your furry companions, all in one place.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card glass-card scroll-reveal">
+                    <i class="fas fa-cut service-icon"></i>
+                    <h3>Grooming</h3>
+                    <p>Professional bathing, haircuts, and nail trimming to keep your pet looking sharp.</p>
+                    <button class="btn btn-outline-light">Book Service</button>
+                </div>
+                <div class="service-card glass-card scroll-reveal" style="transition-delay: 0.1s;">
+                    <i class="fas fa-syringe service-icon"></i>
+                    <h3>Vaccination</h3>
+                    <p>Essential immunizations to protect your pet from common and serious diseases.</p>
+                    <button class="btn btn-outline-light">Book Service</button>
+                </div>
+                <div class="service-card glass-card scroll-reveal" style="transition-delay: 0.2s;">
+                    <i class="fas fa-stethoscope service-icon"></i>
+                    <h3>Veterinary Consultation</h3>
+                    <p>Expert medical check-ups and treatment plans by experienced veterinarians.</p>
+                    <button class="btn btn-outline-light">Book Service</button>
+                </div>
+                <div class="service-card glass-card scroll-reveal" style="transition-delay: 0.3s;">
+                    <i class="fas fa-bone service-icon"></i>
+                    <h3>Pet Training</h3>
+                    <p>Behavioral training classes from basic obedience to advanced tricks.</p>
+                    <button class="btn btn-outline-light">Book Service</button>
+                </div>
+                <div class="service-card glass-card scroll-reveal">
+                    <i class="fas fa-ambulance service-icon"></i>
+                    <h3>Emergency Care</h3>
+                    <p>24/7 urgent medical attention for critical injuries or sudden illness.</p>
+                    <button class="btn btn-outline-light">Book Service</button>
+                </div>
+                <div class="service-card glass-card scroll-reveal" style="transition-delay: 0.1s;">
+                    <i class="fas fa-bed service-icon"></i>
+                    <h3>Pet Boarding</h3>
+                    <p>Safe and comfortable overnight stays for when you're away from home.</p>
+                    <button class="btn btn-outline-light">Book Service</button>
+                </div>
+                <div class="service-card glass-card scroll-reveal" style="transition-delay: 0.2s;">
+                    <i class="fas fa-apple-alt service-icon"></i>
+                    <h3>Nutrition Guidance</h3>
+                    <p>Customized dietary plans to ensure optimal health and weight management.</p>
+                    <button class="btn btn-outline-light">Book Service</button>
+                </div>
+                <div class="service-card glass-card scroll-reveal" style="transition-delay: 0.3s;">
+                    <i class="fas fa-heartbeat service-icon"></i>
+                    <h3>Health Monitoring</h3>
+                    <p>Regular screenings and wellness exams for preventative care.</p>
+                    <button class="btn btn-outline-light">Book Service</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 7: SUCCESS STORIES -->
+    <section class="stories section-padding" id="stories">
+        <div class="container">
+            <div class="section-title scroll-reveal">
+                <h2>Success <span>Stories</span></h2>
+                <p>Read about the beautiful bonds formed through our platform.</p>
+            </div>
+            <div class="slider-container scroll-reveal">
+                <div class="slider-wrapper" id="testimonial-slider">
+                    <!-- Story 1 -->
+                    <div class="slide glass-card">
+                        <div class="story-content">
+                            <div class="story-images">
+                                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="Owner" class="owner-img">
+                                <img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="Pet" class="pet-thumbnail">
+                            </div>
+                            <div class="story-text">
+                                <i class="fas fa-quote-left quote-icon"></i>
+                                <p>"Adopting Buster was the best decision of our lives. He brought so much joy and energy into our home. The process was smooth and the team was incredibly helpful!"</p>
+                                <h4>Sarah & Buster</h4>
+                                <span>New York, NY</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Story 2 -->
+                    <div class="slide glass-card">
+                        <div class="story-content">
+                            <div class="story-images">
+                                <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="Owner" class="owner-img">
+                                <img src="https://images.unsplash.com/photo-1513245543132-31f507417b26?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="Pet" class="pet-thumbnail">
+                            </div>
+                            <div class="story-text">
+                                <i class="fas fa-quote-left quote-icon"></i>
+                                <p>"Luna is the sweetest cat ever. PetCare Plus made sure she was healthy and ready for her new home. Thank you for giving us our little princess."</p>
+                                <h4>Michael & Luna</h4>
+                                <span>Los Angeles, CA</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Story 3 -->
+                    <div class="slide glass-card">
+                        <div class="story-content">
+                            <div class="story-images">
+                                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="Owner" class="owner-img">
+                                <img src="https://images.unsplash.com/photo-1537151608804-ea2f1ea29221?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="Pet" class="pet-thumbnail">
+                            </div>
+                            <div class="story-text">
+                                <i class="fas fa-quote-left quote-icon"></i>
+                                <p>"We were nervous about adopting a rescue dog, but PetCare guided us every step. Charlie is now fully adjusted and we couldn't imagine life without him."</p>
+                                <h4>Emily & Charlie</h4>
+                                <span>Chicago, IL</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Story 4 -->
+                    <div class="slide glass-card">
+                        <div class="story-content">
+                            <div class="story-images">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="Owner" class="owner-img">
+                                <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="Pet" class="pet-thumbnail">
+                            </div>
+                            <div class="story-text">
+                                <i class="fas fa-quote-left quote-icon"></i>
+                                <p>"Bella the pug is hilarious! The platform's matching system works perfectly. We found exactly the personality we were looking for in a pet."</p>
+                                <h4>David & Bella</h4>
+                                <span>Austin, TX</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Story 5 -->
+                    <div class="slide glass-card">
+                        <div class="story-content">
+                            <div class="story-images">
+                                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="Owner" class="owner-img">
+                                <img src="https://images.unsplash.com/photo-1574158622682-e40e69881006?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="Pet" class="pet-thumbnail">
+                            </div>
+                            <div class="story-text">
+                                <i class="fas fa-quote-left quote-icon"></i>
+                                <p>"Adopting a senior pet was so rewarding. Leo has so much love to give. The platform provided all his medical history clearly."</p>
+                                <h4>Jessica & Leo</h4>
+                                <span>Seattle, WA</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Story 6 -->
+                    <div class="slide glass-card">
+                        <div class="story-content">
+                            <div class="story-images">
+                                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="Owner" class="owner-img">
+                                <img src="https://images.unsplash.com/photo-1589924691995-400dc9ecc119?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="Pet" class="pet-thumbnail">
+                            </div>
+                            <div class="story-text">
+                                <i class="fas fa-quote-left quote-icon"></i>
+                                <p>"Rocky is an amazing guard dog and an even better friend. The adoption verification process made us feel secure and supported."</p>
+                                <h4>James & Rocky</h4>
+                                <span>Miami, FL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="slider-btn prev-btn" id="prev-slide"><i class="fas fa-chevron-left"></i></button>
+                    <div class="slider-dots" id="slider-dots"></div>
+                    <button class="slider-btn next-btn" id="next-slide"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 8: DONATION CAMPAIGN -->
+    <section class="donation section-padding bg-light" id="donate">
+        <div class="container">
+            <div class="section-title scroll-reveal">
+                <h2>Support <span>Animal Welfare</span></h2>
+                <p>Your contribution helps us rescue, treat, and feed abandoned animals.</p>
+            </div>
+            
+            <div class="donation-campaigns scroll-reveal">
+                <!-- Campaign 1 -->
+                <div class="campaign-item">
+                    <div class="campaign-info">
+                        <h4>Animal Rescue Fund</h4>
+                        <span class="campaign-amount">₹450,000 / ₹500,000</span>
+                    </div>
+                    <div class="progress-bar-bg">
+                        <div class="progress-bar-fill" data-width="90%"></div>
+                    </div>
+                </div>
+                <!-- Campaign 2 -->
+                <div class="campaign-item">
+                    <div class="campaign-info">
+                        <h4>Emergency Medical Fund</h4>
+                        <span class="campaign-amount">₹120,000 / ₹200,000</span>
+                    </div>
+                    <div class="progress-bar-bg">
+                        <div class="progress-bar-fill" data-width="60%"></div>
+                    </div>
+                </div>
+                <!-- Campaign 3 -->
+                <div class="campaign-item">
+                    <div class="campaign-info">
+                        <h4>Shelter Development Fund</h4>
+                        <span class="campaign-amount">₹75,000 / ₹300,000</span>
+                    </div>
+                    <div class="progress-bar-bg">
+                        <div class="progress-bar-fill" data-width="25%"></div>
+                    </div>
+                </div>
+                <!-- Campaign 4 -->
+                <div class="campaign-item">
+                    <div class="campaign-info">
+                        <h4>Food & Nutrition Fund</h4>
+                        <span class="campaign-amount">₹80,000 / ₹100,000</span>
+                    </div>
+                    <div class="progress-bar-bg">
+                        <div class="progress-bar-fill" data-width="80%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="donation-box glass-card scroll-reveal">
+                <h3>Make a Donation</h3>
+                <div class="donation-amounts">
+                    <button class="donate-amt-btn">₹500</button>
+                    <button class="donate-amt-btn active">₹1000</button>
+                    <button class="donate-amt-btn">₹2000</button>
+                    <button class="donate-amt-btn">₹5000</button>
+                    <button class="donate-amt-btn">₹10000</button>
+                </div>
+                <div class="custom-amount">
+                    <input type="number" placeholder="Custom Amount (₹)" class="form-control">
+                </div>
+                <button class="btn btn-primary btn-large w-100">Donate Now <i class="fas fa-heart"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 9: PET GALLERY -->
+    <section class="gallery-section section-padding" id="gallery">
+        <div class="container">
+            <div class="section-title scroll-reveal">
+                <h2>Our Pet <span>Gallery</span></h2>
+                <p>Glimpses of joy from our shelters and successful adoptions.</p>
+            </div>
+            
+            <div class="gallery-filters scroll-reveal">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="dogs">Dogs</button>
+                <button class="filter-btn" data-filter="cats">Cats</button>
+                <button class="filter-btn" data-filter="rabbits">Rabbits</button>
+                <button class="filter-btn" data-filter="birds">Birds</button>
+                <button class="filter-btn" data-filter="puppies">Puppies</button>
+                <button class="filter-btn" data-filter="rescue">Rescue Pets</button>
+            </div>
+
+            <div class="gallery-grid" id="gallery-grid">
+                <div class="gallery-item dogs puppies scroll-reveal">
+                    <img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Dog">
+                    <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                </div>
+                <div class="gallery-item cats rescue scroll-reveal">
+                    <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Cat">
+                    <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                </div>
+                <div class="gallery-item rabbits scroll-reveal">
+                    <img src="https://images.unsplash.com/photo-1585110396000-c9fd7e48154f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Rabbit">
+                    <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                </div>
+                <div class="gallery-item dogs rescue scroll-reveal">
+                    <img src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Dog">
+                    <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                </div>
+                <div class="gallery-item birds scroll-reveal">
+                    <img src="https://images.unsplash.com/photo-1452570053594-1b985d6ea890?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Bird">
+                    <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                </div>
+                <div class="gallery-item cats scroll-reveal">
+                    <img src="https://images.unsplash.com/photo-1513245543132-31f507417b26?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Cat">
+                    <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                </div>
+                <div class="gallery-item dogs puppies scroll-reveal">
+                    <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Puppy">
+                    <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                </div>
+                <div class="gallery-item rabbits rescue scroll-reveal">
+                    <img src="https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Rabbit">
+                    <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Lightbox -->
+        <div class="lightbox" id="lightbox">
+            <span class="lightbox-close">&times;</span>
+            <img class="lightbox-content" id="lightbox-img" src="" alt="Lightbox Image">
+        </div>
+    </section>
+
+    <!-- SECTION 10: ADOPTION FAQ -->
+    <section class="faq section-padding bg-light">
+        <div class="container">
+            <div class="section-title scroll-reveal">
+                <h2>Adoption <span>FAQ</span></h2>
+                <p>Everything you need to know about the adoption process.</p>
+            </div>
+            
+            <div class="accordion-container scroll-reveal">
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        How do I adopt a pet?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Start by browsing our available pets online. Once you find a match, fill out the adoption application. We will then schedule a meeting, conduct a brief home verification, and process the paperwork before you take your new friend home.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        What documents are required?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <p>You will need a valid government-issued ID (Aadhar, PAN, or Passport), a recent utility bill as proof of address, and a signed copy of the adoption agreement.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        Are pets vaccinated?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Yes, all pets on our platform are fully vaccinated, dewormed, and have undergone a comprehensive health check by our certified veterinarians before being listed for adoption.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        Can I adopt from another city?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <p>We currently prioritize local adoptions to ensure we can complete the necessary home verification and follow-ups. However, case-by-case exceptions are made for nearby cities.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        What is the adoption fee?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Adoption fees vary depending on the pet's age, species, and medical requirements. Typically, it ranges from ₹2,000 to ₹5,000, which covers vaccinations, microchipping, and neutering/spaying.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        How long does approval take?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <p>The entire process usually takes between 3 to 7 business days from the moment you submit your application to the final approval and take-home day.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 11: CONTACT SECTION -->
+    <section class="contact section-padding" id="contact">
+        <div class="container">
+            <div class="section-title scroll-reveal">
+                <h2>Get in <span>Touch</span></h2>
+                <p>Have questions? We're here to help you and your future pet.</p>
+            </div>
+            
+            <div class="contact-wrapper">
+                <div class="contact-info glass-card scroll-reveal">
+                    <h3>Contact Information</h3>
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91 98765 43210</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>hello@petcareplus.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>123 Pet Lovers Lane, Tech Park, Bangalore 560001</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Working Hours</h4>
+                            <p>Mon - Sat: 9:00 AM - 7:00 PM</p>
+                            <p>Sunday: Closed</p>
+                        </div>
+                    </div>
+                    <!-- Map Placeholder -->
+                    <div class="map-placeholder mt-3">
+                        <div class="map-inner">
+                            <i class="fas fa-map"></i>
+                            <span>Interactive Map Embedded Here</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container glass-card scroll-reveal" style="transition-delay: 0.2s;">
+                    <h3>Send us a Message</h3>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" class="form-control" placeholder="Full Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" class="form-control" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" class="form-control" placeholder="Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="city" class="form-control" placeholder="City" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-large">Send Message <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 12: NEWSLETTER -->
+    <section class="newsletter section-padding text-center">
+        <div class="container scroll-reveal">
+            <div class="newsletter-card glass-card">
+                <h2>Join Our Pet Lovers Community</h2>
+                <p>Subscribe to our newsletter for the latest adoption stories, pet care tips, and news.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit" class="btn btn-secondary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 13: LARGE PROFESSIONAL FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-col">
+                    <a href="#" class="footer-logo">
+                        <i class="fas fa-paw"></i> PetCare <span>Plus</span>
+                    </a>
+                    <p class="footer-about">We are a premium pet adoption platform dedicated to connecting loving homes with rescued animals. Every pet deserves a family.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home"><i class="fas fa-angle-right"></i> Home</a></li>
+                        <li><a href="#pets"><i class="fas fa-angle-right"></i> Browse Pets</a></li>
+                        <li><a href="#process"><i class="fas fa-angle-right"></i> Adoption Process</a></li>
+                        <li><a href="#gallery"><i class="fas fa-angle-right"></i> Gallery</a></li>
+                        <li><a href="#contact"><i class="fas fa-angle-right"></i> Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Pet Services</h4>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-angle-right"></i> Pet Grooming</a></li>
+                        <li><a href="#"><i class="fas fa-angle-right"></i> Veterinary Care</a></li>
+                        <li><a href="#"><i class="fas fa-angle-right"></i> Pet Training</a></li>
+                        <li><a href="#"><i class="fas fa-angle-right"></i> Emergency Services</a></li>
+                        <li><a href="#"><i class="fas fa-angle-right"></i> Pet Boarding</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Adoption Resources</h4>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-angle-right"></i> Adoption Guidelines</a></li>
+                        <li><a href="#"><i class="fas fa-angle-right"></i> New Pet Owner Guide</a></li>
+                        <li><a href="#"><i class="fas fa-angle-right"></i> Pet Nutrition</a></li>
+                        <li><a href="#"><i class="fas fa-angle-right"></i> Privacy Policy</a></li>
+                        <li><a href="#"><i class="fas fa-angle-right"></i> Terms & Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 PetCare Plus. All Rights Reserved. Designed with <i class="fas fa-heart" style="color: #FF6B6B;"></i> for animals.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Main JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
